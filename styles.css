@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('https://plus.unsplash.com/premium_photo-1681488142153-9d3966f2d815?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  flex-direction: column;
+}
+
+.wrapper {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  width: 90vw;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.code-container {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.code-container input {
+  width: 25px;
+  text-align: center;
+  font-size: 18px;
+  padding: 6px 0;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+button {
+  margin-top: 25px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  max-width: 320px;
+  width: 90vw;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Ajustes para móvil */
+@media (max-width: 400px) {
+  .wrapper {
+    max-width: 320px;
+    padding: 20px 15px;
+  }
+
+  .code-container {
+    max-width: 220px;
+    gap: 5px;
+  }
+
+  .code-container input {
+    width: 22px;
+    font-size: 16px;
+    padding: 5px 0;
+  }
+
+  .separator {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px;
+    max-width: 280px;
+  }
+}

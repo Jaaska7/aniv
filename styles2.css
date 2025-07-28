@@ -1,0 +1,106 @@
+body, html {
+  margin: 0;
+  padding: 10px;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  background: url('https://img.freepik.com/vector-premium/vector-rosa-borroso-fondo-dia-san-valentin-corazones_921039-13404.jpg?semt=ais_hybrid&w=740&q=80') no-repeat center center;
+  background-size: 2500px 2500px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.28);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.text-block {
+  width: 100%;
+}
+
+.text-block h1 {
+  margin: 0 0 15px 0;
+  font-size: 1.8rem;
+  color: #333;
+  text-align: center;
+}
+
+.text-block p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  text-align: justify;
+}
+
+.image-block img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  display: block;
+  margin: 0 auto;
+}
+
+.selfie-section {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.selfie-section p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.selfie-section button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #333;
+  color: white;
+  transition: background-color 0.3s ease;
+  width: 90%;
+  max-width: 300px;
+}
+
+.selfie-section button:hover {
+  background-color: #555;
+}
+
+.seccio {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+  margin-bottom:50px ;
+}
+
+.reveal-image {
+  display: none;
+  margin-top: 20px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}

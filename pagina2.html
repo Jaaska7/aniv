@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Segunda Página</title>
+  <link rel="stylesheet" href="styles2.css" />
+  <style>
+    .reveal-image {
+      display: none;
+      margin-top: 20px;
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .centered {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="text-block">
+      <h1>Happy Anniversary 🤍</h1>
+      <p>
+        Hoy se cumple una semana desde que comenzó lo nuestro, y aunque el tiempo parezca corto, ha sido
+        suficiente para que mi corazón empiece a latir distinto.
+        <br />
+        Cada momento contigo ha sido como un suspiro bonito, como una caricia suave que me envuelve sin querer
+        soltarme. No sé cómo lo haces, pero en solo unos días, ya eres parte de mi alegría diaria.
+        <br />
+        Feliz primera semana, amor. Lo que siento por ti solo acaba de empezar, y ya se siente infinito.
+      </p>
+    </div>
+    <div class="image-block">
+      <img style="border-radius: 30px;" src="/WhatsApp Image 2025-07-28 at 16.43.52.jpeg" alt="Paisaje de aventura" />
+    </div>
+  </div>
+
+  <div class="selfie-section centered" style="margin-top: 40px;">
+    <p style="font-size: 1.2rem; color: #333;">U want to know who my Janeman is?</p>
+    <button id="revealBtn" style="padding:10px 20px; font-size:1rem; cursor:pointer; border-radius:8px;">Reveal the beautiful girl</button>
+    <br />
+    <img id="revealedImage" class="reveal-image" src="/IMG_20250715_212701.jpg" alt="Mi Janeman" />
+  </div>
+
+  <div class="seccio"></div>
+
+  <script>
+    const btn = document.getElementById('revealBtn');
+    const img = document.getElementById('revealedImage');
+
+    btn.addEventListener('click', () => {
+      img.style.display = 'block';
+    });
+  </script>
+</body>
+
+</html>
